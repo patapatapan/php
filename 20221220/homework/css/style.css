@@ -1,4 +1,28 @@
-nav {
+html { box-sizing: border-box; }
+*, *::before, *::after { box-sizing: inherit; }
+
+nav > ul {
     background-color: rgb(230, 230, 230);
-    font-size: x-large;
+    list-style: none;   /* 移除項目符號 */
+    margin: 0;
+    padding: 0;
+    display:flex;   /*橫向導覽列*/
+    justify-content: flex-end; /*靠右*/
+}
+
+nav a {
+    color: inherit; /* 移除超連結顏色 */
+    display: block; /* 讓 <a> 填滿 <li> */
+    font-size: 1.2rem;
+    padding: 10px;
+    text-decoration: none;  /* 移除超連結底線 */
+}
+
+nav a:hover {
+    background-color: rgb(115, 115, 115);
+    color: white;
+}
+
+nav p a{
+    font-size: 1.5rem;
 }
