@@ -1,0 +1,11 @@
+h2 {
+    color: blueviolet;
+    background-color: aqua;
+    display: inline;
+}
+
+h3 {
+    color: rgb(250, 233, 84);
+    background-color: rgb(43, 138, 86);
+    display: inline;
+}

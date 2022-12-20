@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>表單</title>
+</head>
+
+<body>
+  <img src="../rmvrqt2h2v5l1drdtud576t37io3px5.png" style="width:900px; height:900px; float:right;" alt='薇' /><br>
+  <form action=" #" method="post">
+    <h1>表單系統</h1>
+    <p>請留下個人資料</p>
+    <p>姓名: <input type="text" name="user"></p>
+    <p>電話: <input type="tel" name="tel"></p>
+    <p>郵件: <input type="mail" name="mail"></p>
+    <p>網址: <input type="url" name="url"></p>
+    <p>性別</p>
+    <input type="radio" name="sex" value="1">男生<br>
+    <input type="radio" name="sex" value="0">女生<br>
+
+    <label id="city" name="city">籍貫</label><input type="text" name="city" id="city">
+
+    <p>年齡層分析</p>
+    <select name="age">
+      <option value="1">小於20歲</option>
+      <option value="2">20-40歲</option>
+      <option value="3">41-60歲</option>
+      <option value="4">大於60歲</option>
+    </select>
+
+
+    <fieldset>
+      <legend>你會下列哪些軟體能力</legend>
+      <input type="checkbox" name="software[]" value="html">HTML<br>
+      <input type="checkbox" name="software[]" value="css">CSS<br>
+      <input type="checkbox" name="software[]" value="js">JS<br>
+      <input type="checkbox" name="software[]" value="php">PHP<br>
+      <input type="checkbox" name="software[]" value="jquery">JQUERY<br>
+    </fieldset>
+    <p>意見回饋</p>
+    <textarea name="sugestion" cols="30" rows="5"></textarea>
+
+    <P>
+      <input type="submit" value="確認">
+      <input type="reset" value="取消">
+    </P>
+  </form>
+
+</body>
+
+</html>
